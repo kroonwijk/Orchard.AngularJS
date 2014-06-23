@@ -354,9 +354,7 @@
     <Compile Include="ResourceManifest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\" />
+    <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\errors.json" />
