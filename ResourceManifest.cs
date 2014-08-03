@@ -22,38 +22,47 @@ namespace Orchard.AngularJS
             // partial libraries
             manifest.DefineScript("AngularJS_Animate")
                 .SetUrl("angular-animate.min.js", "angular-animate.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Cookies")
                 .SetUrl("angular-cookies.min.js", "angular-cookies.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Loader")
                 .SetUrl("angular-loader.min.js", "angular-loader.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Mocks")
                 .SetUrl("angular-mocks.js", "angular-mocks.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Resource")
                 .SetUrl("angular-resource.min.js", "angular-resource.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Route")
                 .SetUrl("angular-route.min.js", "angular-route.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Sanitize")
                 .SetUrl("angular-sanitize.min.js", "angular-sanitize.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Scenario")
                 .SetUrl("angular-scenario.js", "angular-scenario.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Touch")
                 .SetUrl("angular-touch.min.js", "angular-touch.js")
+                .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
         }
