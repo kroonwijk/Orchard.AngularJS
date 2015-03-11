@@ -4,7 +4,7 @@ namespace Orchard.AngularJS
 {
     public class ResourceManifest : IResourceManifestProvider
     {
-        private const string StableVersion = "1.2.18";
+        private const string StableVersion = "1.3.14";
 
         public void BuildManifests(ResourceManifestBuilder builder)
         {
@@ -25,6 +25,11 @@ namespace Orchard.AngularJS
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
+            manifest.DefineScript("AngularJS_Aria")
+                .SetUrl("angular-aria.min.js", "angular-aria.js")
+                .SetDependencies("AngularJS")
+                .SetVersion(StableVersion);
+
             manifest.DefineScript("AngularJS_Cookies")
                 .SetUrl("angular-cookies.min.js", "angular-cookies.js")
                 .SetDependencies("AngularJS")
@@ -32,6 +37,11 @@ namespace Orchard.AngularJS
 
             manifest.DefineScript("AngularJS_Loader")
                 .SetUrl("angular-loader.min.js", "angular-loader.js")
+                .SetDependencies("AngularJS")
+                .SetVersion(StableVersion);
+
+            manifest.DefineScript("AngularJS_Messages")
+                .SetUrl("angular-messages.js", "angular-messages.js")
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
@@ -64,7 +74,6 @@ namespace Orchard.AngularJS
                 .SetUrl("angular-touch.min.js", "angular-touch.js")
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
-
         }
     }
 }
