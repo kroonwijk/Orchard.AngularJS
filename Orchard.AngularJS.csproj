@@ -72,8 +72,14 @@
   <ItemGroup>
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
+    <Content Include="Scripts\angular-aria.js" />
+    <Content Include="Scripts\angular-aria.min.js" />
     <Content Include="Scripts\angular-cookies.js" />
     <Content Include="Scripts\angular-cookies.min.js" />
+    <Content Include="Scripts\angular-message-format.js" />
+    <Content Include="Scripts\angular-message-format.min.js" />
+    <Content Include="Scripts\angular-messages.js" />
+    <Content Include="Scripts\angular-messages.min.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-et.js" />
@@ -576,6 +582,7 @@
     <Content Include="Scripts\i18n\angular-locale_zh-hant-mo.js" />
     <Content Include="Scripts\i18n\angular-locale_zh-hant-tw.js" />
     <Content Include="Scripts\i18n\angular-locale_zh-hant.js" />
+    <Content Include="Scripts\version.txt" />
     <Content Include="Styles\angular-csp.css" />
     <Content Include="Scripts\angular-loader.js" />
     <Content Include="Scripts\angular-loader.min.js" />
@@ -887,6 +894,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\angular-aria.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\angular-message-format.min.js.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\angular-messages.min.js.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
