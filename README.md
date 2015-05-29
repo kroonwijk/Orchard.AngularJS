@@ -1,27 +1,19 @@
-Orchard.AngularJS
-=================
+# Orchard.AngularJS
 
-All resources distributed as part of the latest stable AngularJS toolkit (by Google) in an Orchard module package.
 
-The package itself can be found in the Orchard gallery at
-https://gallery.orchardproject.net/List/Modules/Orchard.Module.Orchard.AngularJS
 
-Currently, the stable 1.2.18 version of AngularJS is included. Please help me keep the distribution up to date to the latest stable version of https://angularjs.org.
+## Summary
 
-Building the package
---------------------
-Get the code from this git repository over to your local system:
-	git clone https://github.com/kroonwijk/Orchard.AngularJS.git
+- All resources distributed as part of the latest stable AngularJS toolkit (by Google) in an Orchard module package.
+- Currently, the stable 1.3.15 version of AngularJS is included.
+- The module is compatible with Orchard CMS versions 1.8.2 and 1.9.
+- The NuGet package can be found [in the Orchard Gallery](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Orchard.AngularJS).
 
-Copy the content of the repository clone into a locally installed version of Orchard under <orchard base-directory>/modules/Orchard.AngularJS.
 
-From <orchard base-directory>/bin run the Orchard shell:
-	orchard
+## Related links
 
-From the Orchard shell, enable the packaging feature:
-	orchard> feature enable Orchard.Packaging
-
-Now you can package the module:
-	orchard> package create Orchard.AngularJS <choose a directory on your filesystem>
-
-That is all.
+- [AngularJS GitHub repository](https://github.com/angular/angular.js)
+- [AngularJS official website](https://angularjs.org)
+- [Orchard CMS GitHub repository](https://github.com/OrchardCMS/Orchard)
+- [Orchard CMS official website](http://orchardproject.net)
+- [Orchard Gallery](http://gallery.orchardproject.net)
