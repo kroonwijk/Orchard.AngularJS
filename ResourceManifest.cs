@@ -4,13 +4,13 @@ namespace Orchard.AngularJS
 {
     public class ResourceManifest : IResourceManifestProvider
     {
-        private const string StableVersion = "1.3.15";
+        private const string StableVersion = "1.4.0";
 
         public void BuildManifests(ResourceManifestBuilder builder)
         {
             var manifest = builder.Add();
 
-            // main library
+            // Main library
             manifest.DefineScript("AngularJS")
                 .SetUrl("angular.min.js", "angular.js")
                 .SetVersion(StableVersion)
@@ -19,7 +19,12 @@ namespace Orchard.AngularJS
                     string.Format("//ajax.googleapis.com/ajax/libs/angularjs/{0}/angular.js", StableVersion),
                     true);
 
-            // partial libraries
+            manifest.DefineStyle("AngularJS_CSP")
+                .SetUrl("angular-csp.css")
+                .SetVersion(StableVersion);
+
+
+            // Partial libraries
             manifest.DefineScript("AngularJS_Animate")
                 .SetUrl("angular-animate.min.js", "angular-animate.js")
                 .SetDependencies("AngularJS")
@@ -40,13 +45,18 @@ namespace Orchard.AngularJS
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
+            manifest.DefineScript("AngularJS_MessageFormat")
+                .SetUrl("angular-messages.js", "angular-messages.js")
+                .SetDependencies("AngularJS")
+                .SetVersion(StableVersion);
+
             manifest.DefineScript("AngularJS_Messages")
                 .SetUrl("angular-messages.js", "angular-messages.js")
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Mocks")
-                .SetUrl("angular-mocks.js", "angular-mocks.js")
+                .SetUrl("angular-mocks.js")
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 
@@ -66,7 +76,7 @@ namespace Orchard.AngularJS
                 .SetVersion(StableVersion);
 
             manifest.DefineScript("AngularJS_Scenario")
-                .SetUrl("angular-scenario.js", "angular-scenario.js")
+                .SetUrl("angular-scenario.js")
                 .SetDependencies("AngularJS")
                 .SetVersion(StableVersion);
 

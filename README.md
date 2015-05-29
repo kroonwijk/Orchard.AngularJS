@@ -5,8 +5,8 @@
 ## Summary
 
 - All resources distributed as part of the latest stable AngularJS toolkit (by Google) in an Orchard module package.
-- Currently, the stable 1.3.15 version of AngularJS is included.
-- The module is compatible with Orchard CMS versions 1.8.2 and 1.9.
+- Currently, the stable 1.4.0 version of AngularJS is included.
+- The module is compatible with all versions of Orchard CMS.
 - The NuGet package can be found [in the Orchard Gallery](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Orchard.AngularJS).
 
 
