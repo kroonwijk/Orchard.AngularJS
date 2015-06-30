@@ -4,7 +4,7 @@ namespace Orchard.AngularJS
 {
     public class ResourceManifest : IResourceManifestProvider
     {
-        private const string StableVersion = "1.4.0";
+        private const string StableVersion = "1.4.1";
 
         public void BuildManifests(ResourceManifestBuilder builder)
         {
