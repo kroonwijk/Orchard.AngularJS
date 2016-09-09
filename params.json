@@ -1,0 +1,6 @@
+{
+  "name": "Orchard.angularjs",
+  "tagline": "All resources distributed as part of the latest stable AngularJS toolkit in an Orchard module package.",
+  "body": "# Orchard.AngularJS\r\n\r\n\r\n\r\n## Summary\r\n\r\n- All resources distributed as part of the latest stable AngularJS toolkit (by Google) in an Orchard module package.\r\n- Currently, the stable 1.4.1 version of AngularJS is included.\r\n- The module is compatible with all versions of Orchard CMS.\r\n- The NuGet package can be found [in the Orchard Gallery](https://gallery.orchardproject.net/List/Modules/Orchard.Module.Orchard.AngularJS).\r\n\r\n\r\n## Related links\r\n\r\n- [AngularJS GitHub repository](https://github.com/angular/angular.js)\r\n- [AngularJS official website](https://angularjs.org)\r\n- [Orchard CMS GitHub repository](https://github.com/OrchardCMS/Orchard)\r\n- [Orchard CMS official website](http://orchardproject.net)\r\n- [Orchard Gallery](http://gallery.orchardproject.net)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
